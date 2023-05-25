@@ -1,0 +1,80 @@
+/* BASE HTML */
+html{
+  box-sizing: border-box;
+  line-height: 62.4%;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+body {
+  line-height: 1.6rem;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  
+}
+
+/* footer {
+  background-color: #333;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border: 1px solid red;
+} */
+section {
+  border: 2px solid rgb(98, 97, 97);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 7px;
+}
+.div-footer-grid{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 7px;
+  background-color: #333;
+  color: white;
+  align-self: center;
+}
+
+.div-footer-grid ul li{
+ list-style: none;
+}
+
+.div-footer-grid ul a{
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+.div-footer-grid section > h5{
+  width: 50%;
+  text-align: center;
+  border-radius: 7px;
+  background-color: gray;
+  margin: 10px auto;
+  
+}
+
+.div-footer-grid li a:hover{
+  background-color: red;
+  padding: 5px;
+  border-radius: 10px;
+  
+}
+
+.div-codigo-legal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+
+.div-codigo-legal a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+}
